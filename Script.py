@@ -1,8 +1,7 @@
 class script(object):
     KFC = "𝙔𝙤𝙪 𝘾𝙖𝙣'𝙩 𝙐𝙨𝙚 𝙈𝙚 😏"
     START_TXT = """👋 𝙃𝙀𝙇𝙇𝙊 @𝘼𝘿𝙈𝙄𝙉 """
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """താഴേ നോക്ക്"""
     ABOUT_TXT = """🐱"""
     SOURCE_TXT = """🐹"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
