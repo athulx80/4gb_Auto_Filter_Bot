@@ -1,15 +1,29 @@
 class script(object):
     KFC = "𝙔𝙤𝙪 𝘾𝙖𝙣'𝙩 𝙐𝙨𝙚 𝙈𝙚 😏"
-    START_TXT = """👋 𝙃𝙀𝙇𝙇𝙊 @𝘼𝘿𝙈𝙄𝙉 """
-    HELP_TXT = """താഴേ നോക്ക്"""
-    ABOUT_TXT = """🐱"""
-    SOURCE_TXT = """🐹"""
+    START_TXT = """𝖧𝖾𝗒𝗒 {}, 𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href=https://t.me/{}>{}</a>! 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎.
+
+𝖨 𝖠𝗆 𝖠 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅𝗅 𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌..."""
+    HELP_TXT = """<b>Here Is My All Modules</b>"""
+    ABOUT_TXT = """➲ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
+
+➲ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋: <a href=https://t.me/athulx80>𝖠𝗍𝗁𝗎𝗅</a>
+
+➲ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒: 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
+
+➲ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾: 𝖯𝗒𝗍𝗁𝗈𝗇
+
+➲ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾: <a href=https://www.mongodb.com/>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
+
+➲ 𝖡𝗈𝗍 𝖲𝖾𝗋𝗏𝖾𝗋: 𝖧𝖾𝗋𝗈𝗄𝗎
+
+➲ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌: <a href=https://t.me/+bw750QKrRTRlOWVl>𝖩𝗈𝗂𝗇 𝖧𝖾𝗋𝖾</a>"""
+    SOURCE_TXT = """<b>Sorry Not Open Source</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -20,15 +34,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- The Weeknd Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. The Weeknd Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/+bw750QKrRTRlOWVl)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -55,7 +69,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of The Weeknd Bot!
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -84,12 +98,12 @@ This module only works for my admins
 ★ 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚂𝚃𝙾𝚁𝙰𝙶𝙴 𝚄𝚂𝙴𝙳: <code>{}</code> 𝙼𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱"""
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+✮ 𝐆𝐫𝐨𝐮𝐩 ›› {}(<code>{}</code>)
+✮ 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ›› <code>{}</code>
+✮ 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ›› {}
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+    LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
+✮ 𝐈𝐃 ›› <code>{}</code>
+✮ 𝐍𝐚𝐦𝐞 ›› {}
 """
